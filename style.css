@@ -10,13 +10,16 @@ ul {
     list-style-type: none;
 }
 
+a:hover {
+    text-decoration: none;
+    color: rgba(255, 30, 39, 1);
+}
 .navbar {
     display: flex;
     flex-direction: row;
     border-bottom: 1px solid rgba(131, 136, 156, 1);
     padding-bottom: 1.5rem;
     padding-top: 1.5rem;
-    
 }
 
 .navbar_group_1 {
@@ -77,14 +80,62 @@ ul {
 .action-bar {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .action-bar-link {
     color: rgba(227, 227, 224, 1);
     text-decoration: none;
 }
+
+.w-100 {
+    width: 100% !important;
+    height: 50vh;
+}
+
 .marketing-ad {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.img-ad-card {
+    flex-shrink: 0;
+}
+
+.title-ad-navy {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    color: rgba(17, 23, 43, 1);
+}
+
+
+.marketing-ad-text-over {
+    position: relative;
+}
+
+.img-ad-champagne {
+    z-index: 0;
     width: 100%;
-    height: 100px;
+}
+
+.text-ad-2 {
+    background-color: rgba(17, 23, 43, 1);
+    z-index: 1;
+    color: white;
+    width: 350px;
+    position: absolute;
+    top: 110px;
+    left: 45px;
+}
+
+.title-ad-white {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.img-ad-game {
+    flex-shrink: 0;
 }
