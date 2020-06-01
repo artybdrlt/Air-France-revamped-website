@@ -42,7 +42,7 @@ ul {
 
 .link-navbar-active {
     color: rgba(227, 227, 224, 1);
-    border-bottom: 1px solid rgba(253, 29, 38, 1);
+    border-bottom: 1px solid rgba(255, 30, 39, 1);
     padding-right: 20px;
 }
 
@@ -53,7 +53,7 @@ ul {
 }
 
 .button {
-    background-color: rgba(253, 29, 38, 1);
+    background-color: rgba(255, 30, 39, 1);
     border-radius: 1px;
     border: 0px;
 }
@@ -64,13 +64,25 @@ ul {
     height: 50px
 }
 
-.search-input-destination {
-    height: 20px;
+.destination-title {
+    color: rgba(227, 227, 224, 1);
+    text-decoration: none;
 }
 
 .double-arrow {
     height: 10px;
     width: 100%;
+}
+
+.action-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.action-bar-link {
+    color: rgba(227, 227, 224, 1);
+    text-decoration: none;
 }
 .marketing-ad {
     width: 100%;
