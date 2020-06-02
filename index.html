@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Air France homepage</title>
 </head>
 <body>
     <header>
         <div class="navbar container">
             <div class="navbar_group_1">
-                <img src="/images/Air_France_Logo_white.svg" alt="brand-logo" class="brand-logo">
+                <img src="images/Air_France_Logo_white.svg" alt="brand-logo" class="brand-logo">
                 <ul class="container-links">
                     <li><a href="http://" target="_blank" rel="noopener noreferrer" class="link-navbar-active">Réserver</a></li>
                     <li><a href="http://" target="_blank" rel="noopener noreferrer" class="link-navbar">Enregistrement</a></li>
@@ -27,21 +27,25 @@
             </div>
         </div>
 
-        <div class="destination container">
-            <div>
+        <div class="destination container px-5 my-4">
+            <div class="destination-wrapper">
                 <div><a href="http://" target="_blank" rel="noopener noreferrer" class="destination-title">De</a></div>
                 <div class="destination-subtitle">Votre point d'origine</div>
             </div>
-            <img src="/images/double-arrow-right-left.svg" alt="double-arrow-right-left" class="double-arrow">
-            <div>
+            <img src="images/double-arrow-right-left.svg" alt="double-arrow-right-left" class="double-arrow px-1">
+            <div class="destination-wrapper">
                 <div><a href="http://" target="_blank" rel="noopener noreferrer" class="destination-title">Vers</a></div>
                 <div class="destination-subtitle">Votre point de destination</div>
             </div>
-            <div class="single-return">Aller-retour</div>
-            <img src="/images/double-arrow-top-bottom.svg" alt="double-arrow-top-bottom">
-            <input type="date" name="date" id="date" class="search-input-destination">
-            <div>1 passager</div>
-            <a href=""></a>
+            <div class="destination-subtitle">Aller-retour</div>
+            <a href="http://" target="_blank" rel="noopener noreferrer" class="double-arrow-top-bottom">
+                <img src="images/double-arrow-top-bottom.svg" alt="double-arrow-top-bottom" class="double-arrow-top-bottom">
+            </a>
+            <input type="date" name="date" id="date" class="date-input-destination">
+            <div class="destination-subtitle">1 passager</div>
+            <a href="http://" target="_blank" rel="noopener noreferrer" class="double-arrow-top-bottom">
+                <img src="images/double-arrow-top-bottom.svg" alt="double-arrow-top-bottom" class="double-arrow-top-bottom">
+            </a>
             <button type="submit" class="button">Rechercher</button>
         </div>
 
@@ -54,7 +58,7 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                 <a href="http://" target="_blank" rel="noopener noreferrer">
-                    <img class="d-block w-100 img-slider" src="/images/New York skyline.jpg" alt="First slide">
+                    <img class="d-block w-100 img-slider img-fluid" src="images/New York skyline.jpg" alt="First slide">
                 </a>
                 <div class="carousel-caption d-none d-md-block">
                     <h1>PLANIFIEZ VOTRE VOYAGE A NEW-YORK</h1>
@@ -63,7 +67,7 @@
                 </div>
                 <div class="carousel-item">
                 <a href="http://" target="_blank" rel="noopener noreferrer">
-                    <img class="d-block w-100 img-slider" src="/images/Paris skyline.jpg" alt="Second slide">
+                    <img class="d-block w-100 img-slider img-fluid" src="images/Paris skyline.jpg" alt="Second slide">
                 </a>
                 <div class="carousel-caption d-none d-md-block">
                     <h1>PLANIFIEZ VOTRE VOYAGE A PARIS</h1>
@@ -72,7 +76,7 @@
                 </div>
                 <div class="carousel-item">
                 <a href="http://" target="_blank" rel="noopener noreferrer">
-                    <img class="d-block w-100 img-slider" src="/images/Los-Angeles-skyline.jpg" alt="Third slide">
+                    <img class="d-block w-100 img-slider img-fluid" src="images/Los-Angeles-skyline.jpg" alt="Third slide">
                 </a>
                 <div class="carousel-caption d-none d-md-block">
                     <h1>PLANIFIEZ VOTRE VOYAGE A LOS ANGELES</h1>
@@ -105,7 +109,7 @@
         <h1 class="text-center">Notre nouvelle cabine Premium economy</h2>          
 
         <div class="marketing-ad pl-5">
-            <img src="/images/img-card.jpg" class="img-ad-card" alt="stewardess giving a card to a smiling man passenger">
+            <img src="images/img-card.jpg" class="img-ad-card img-fluid" alt="stewardess giving a card to a smiling man passenger">
             <div class="pl-5">
                 <div class="title-ad-navy">BIENVENUE A BORD</div>
                 <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti velit tempora porro, autem aliquam ipsam temporibus debitis itaque harum culpa id, eveniet, distinctio veritatis dolor. Temporibus culpa aut iure iste.
@@ -115,7 +119,7 @@
         </div>
 
         <div class="marketing-ad-text-over">
-            <img src="/images/img-champagne.jpg" alt="stewardess giving a card to a smiling man passenger" class="img-ad-champagne">
+            <img src="images/img-champagne.jpg" alt="stewardess giving a card to a smiling man passenger" class="img-ad-champagne img-fluid">
             <div class="text-ad-2 text-center py-4 px-3">
                 <div class="title-ad-white">DES PLATS SUR MESURE</div>
                 <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti velit tempora porro, autem aliquam ipsam temporibus debitis itaque harum culpa id, eveniet, distinctio veritatis dolor. Temporibus culpa aut iure iste.
@@ -131,18 +135,17 @@
                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente molestias quae culpa pariatur voluptatum quasi ratione, sed itaque explicabo? Aliquid illum quaerat optio non recusandae eius beatae debitis, iusto maiores!
                 </div>
             </div>
-            <img src="/images/img-trackmania.jpg" class="img-ad-game" alt="stewardess giving a card to a smiling man passenger">
+            <img src="images/img-trackmania.jpg" class="img-ad-game img-fluid" alt="stewardess giving a card to a smiling man passenger">
         </div>
 
     </main>
     <footer>
-        <ul>
-            <li class="link-footer"><a href="http://">Nous contacter</a></li>
-            <li class="link-footer"><a href="http://" target="_blank" rel="noopener noreferrer">Notre programme de fidélité</a></li>
-            <li class="link-footer"><a href="http://" target="_blank" rel="noopener noreferrer">A propos</a></li>
+        <ul class="links-footer container pt-4">
+            <li><a href="http://" class="link-footer text-uppercase"">Nous contacter</a></li>
+            <li><a href="http://" target="_blank" rel="noopener noreferrer" class="link-footer text-uppercase">Notre programme de fidélité</a></li>
+            <li><a href="http://" target="_blank" rel="noopener noreferrer" class="link-footer text-uppercase"">A propos</a></li>
         </ul>
     </footer>
-    
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
