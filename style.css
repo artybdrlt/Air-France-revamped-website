@@ -26,6 +26,10 @@ a:hover {
     text-decoration: none;
     color: rgba(255, 30, 39, 1);
 }
+
+textarea {
+    resize: none;
+}
 .navbar {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -87,16 +91,17 @@ a:hover {
     text-decoration: none;
     color: rgba(121, 127, 139, 1);
     padding-right: 20px;
+    margin: auto;
 }
 
 .button {
     background-color: rgba(255, 30, 39, 1);
-    border-radius: 1px;
-    border: 0px;
-    height: 25px;
-    margin: auto;
+    color: white;
 }
 
+#button-search {
+    margin: auto;
+}
 .destination {
     display: -webkit-box;
     display: -ms-flexbox;
